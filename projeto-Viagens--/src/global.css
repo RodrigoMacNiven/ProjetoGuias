@@ -2,6 +2,19 @@
   --font-family-Ubunto: "Ubunto" Arial, Helvetica, sans-serif;
   --font-family-Actor: "Actor" Arial,Helvetica, sans-serif;
   --font-size-large: 50px;
+  --font-weight-large: 700;
+
+  --backgroundPadrao:#E8F1F2;
+  --backgroundSubtitle1:#CDF5CC80;
+  --backgroundSubtitle2:#7A9E7E;
+  --backgroundSubtitle3:#31493C;
+  --backgroundSubtitle4:#001A23;
+
+  --cardBackground1: #7A9E7E;
+  --cardBackground2: #CDF5CC80;
+  --cardBackground3: #CDF5CC80;
+
+  --buttonColor: #31493C;
 }
 
 .titulo{
