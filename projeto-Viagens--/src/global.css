@@ -1,7 +1,19 @@
 .titulo{
-  font-weight: ;
+  font-family: "Ubunto" Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 50px;
+  color: #001A23;
   align-items: center;
   justify-content: center;
-
 }
+
+.subtitulo {
+  font-family: "Ubunto" Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color:#E8F1F2;
+  text-align: left;
+  width: 427px;
+  height: 46px;
+}
+
