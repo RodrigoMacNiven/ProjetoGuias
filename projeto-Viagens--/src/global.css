@@ -1,11 +1,12 @@
 :root {
   --font-family-title: "Ubunto" Arial, Helvetica, sans-serif;
   --font-size-large: 50px;
+  --font-weight-large: 700;
 }
 
 .titulo{
   font-family: var(--font-family-title);
-  font-weight: 700;
+  font-weight: var(--font-weight-large);
   font-size: var(--font-size-large);
   color: #001A23;
   align-items: center;
@@ -15,7 +16,7 @@
 .subtitulo {
   font-family: var(--font-family-title);
   font-size: 40px;
-  font-weight: 700;
+  font-weight: var(--font-weight-large);
   color:#E8F1F2;
   text-align: left;
   width: 427px;
