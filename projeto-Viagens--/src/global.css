@@ -1,6 +1,7 @@
 :root {
   --font-family-Ubunto: "Ubunto" Arial, Helvetica, sans-serif;
-  --font-family-Actor: "Actor" Arial,Helvetica, sans-serif;
+  --font-family-Actor: "Actor" Arial, Helvetica, sans-serif;
+  --font-family-Basic: "Basic" Arial, Helvetica, sans-serif;
   --font-size-large: 50px;
 }
 
@@ -34,5 +35,12 @@
   font-family: var(--font-family-Actor) ;
   font-size: 16px;
   font-weight: 400;
-  
 }
+
+.texto-atracao{
+  font-family: var(--font-family-Basic);
+  font-weight: 400;
+  font-size: 10px;
+  color:#001A23;
+}
+
