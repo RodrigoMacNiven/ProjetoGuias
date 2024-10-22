@@ -1,8 +1,6 @@
 :root {
-  --font-family-default: Arial, Helvetica, sans-serif;
-  --font-family-title: "Ubunto" var(--font-family-default);
-  --font-family-textSn: "Actor" var(--font-family-default);
-  --font-family-basic: "Basic" var(--font-family-default);
+  --font-family-Ubunto: "Ubunto" Arial, Helvetica, sans-serif;
+  --font-family-Actor: "Actor" Arial,Helvetica, sans-serif;
   --font-size-large: 50px;
   --font-weight-large: 700;
 
@@ -20,8 +18,8 @@
 }
 
 .titulo{
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-large);
+  font-family: var(--font-family-Ubunto);
+  font-weight: 700;
   font-size: var(--font-size-large);
   color: #001A23;
   align-items: center;
@@ -29,12 +27,25 @@
 }
 
 .subtitulo {
-  font-family: var(--font-family-title);
+  font-family: var(--font-family-Ubunto);
   font-size: 40px;
-  font-weight: var(--font-weight-large);
+  font-weight: 700;
   color:#E8F1F2;
   text-align: left;
   width: 427px;
   height: 46px;
 }
+ 
+.textoSn {
+    font-family: var(--font-family-Actor);
+    font-weight: 400;
+    font-size: 18px;
+    color: #001A23;
+}
 
+.search {
+  font-family: var(--font-family-Actor) ;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
