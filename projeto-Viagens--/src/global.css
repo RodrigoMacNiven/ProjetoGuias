@@ -1,7 +1,11 @@
+:root {
+  --font-size-large: 50px;
+}
+
 .titulo{
   font-family: "Ubunto" Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: var(--font-size-large);
   color: #001A23;
   align-items: center;
   justify-content: center;
