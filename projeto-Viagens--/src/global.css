@@ -1,7 +1,22 @@
 :root {
-  --font-family-title: "Ubunto" Arial, Helvetica, sans-serif;
+  --font-family-default: Arial, Helvetica, sans-serif;
+  --font-family-title: "Ubunto" var(--font-family-default);
+  --font-family-textSn: "Actor" var(--font-family-default);
+  --font-family-basic: "Basic" var(--font-family-default);
   --font-size-large: 50px;
   --font-weight-large: 700;
+
+  --backgroundPadrao:#E8F1F2;
+  --backgroundSubtitle1:#CDF5CC80;
+  --backgroundSubtitle2:#7A9E7E;
+  --backgroundSubtitle3:#31493C;
+  --backgroundSubtitle4:#001A23;
+
+  --cardBackground1: #7A9E7E;
+  --cardBackground2: #CDF5CC80;
+  --cardBackground3: #CDF5CC80;
+
+  --buttonColor: #31493C;
 }
 
 .titulo{
