@@ -1,9 +1,12 @@
+import { Footer } from "./componentes/footer";
+import { Header } from "./componentes/header";
 
 function App() {
 
   return (
     <div>
-      ola
+        <Header/>
+        <Footer/>
     </div>
   )
 }
