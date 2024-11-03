@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+.LogoArea img{
+    width: 130px;
+    height: 125px;
+}

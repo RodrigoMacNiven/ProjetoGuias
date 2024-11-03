@@ -1,0 +1,59 @@
+.menu-icon {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -613px;
+    width: 30%;
+    height: auto;
+    background-color: #31493C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: right 0.3s ease;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    z-index: 1000;
+  }
+  .sidebar.open {
+    right: 0;
+  }
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+  }
+  .sidebar nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .sidebar nav ul li {
+    margin-bottom: 20px;
+  }
+  .sidebar nav ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  .close-btn:hover,
+  .sidebar nav ul li a:hover {
+    color: #007bff;
+  }

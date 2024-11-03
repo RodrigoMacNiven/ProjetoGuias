@@ -1,0 +1,45 @@
+.SearchArea {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+.SearchArea input {
+  width: 500px;
+  height: 45px;
+  padding: 0 20px;
+  padding-right: 45px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+  font-size: 30px;
+  cursor: pointer;
+}
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
